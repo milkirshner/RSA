@@ -26,7 +26,7 @@ namespace RSA
             }
 
             {
-                Console.WriteLine("Введите числа p и q:");
+                Console.WriteLine("введите числа p и q:");
                 int p = int.Parse(Console.ReadLine());
                 int q = int.Parse(Console.ReadLine());
                 double n = p * q;
@@ -44,7 +44,7 @@ namespace RSA
                             if (NOD(e1, fi) == 1)
                             { g++; e = e1; }
                 }
-                Console.WriteLine("Всего значений e:" + g);
+                Console.WriteLine("всего значений e:" + g);
                 Console.WriteLine("e =" + e);
                 double d = 0;
                 int h = 0;
